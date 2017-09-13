@@ -6,12 +6,13 @@ $(function() {
 			create: function() {
 
 				var prof = {
-						firstName: $("#prof-firstname"),
-						lastName: $("#prof-lastname"),
-						age: $("#prof-age");
-						weight: $("#prof-weight"),
-						height: $("#prof-height"),
+						firstName: $("#prof-firstName").val(),
+						lastName: $("#prof-lastName").val(),
+						age: $("#prof-age").val(),
+						weight: $("#prof-weight").val(),
+						height: $("#prof-height").val()
 				};
+				console.log(prof);
 				var postData = { profile: prof };
 				var profileCreate = $.ajax({
 
@@ -28,9 +29,11 @@ $(function() {
 						$("#prof-age").val("");
 						$("#prof-weight").val("");
 						$("#prof-height").val("");
-					});
-				}
-
+				});
+			}
+		}
+	});
 
 					// bindings
 		$("#prof-save").on("click", WorkoutLog.profile.create);
+});
