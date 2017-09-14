@@ -1,0 +1,42 @@
+
+body {
+	background-color: black;
+}
+
+/*Navbar Start*/
+#navbar {
+	background-color: #14063A;
+}
+
+
+
+/*Home/Login/Signup Start*/
+
+.container {
+	background-image: url("img/homeBackground.jpeg");
+	background-repeat: no-repeat;
+	height: 600px;
+}
+
+
+.jumbotron {
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,8 +3,8 @@ $(function() {
 		profile: {
 			userProfiles: [],
 
-			create: function() {
-
+			create: function(event) {
+				event.preventDefault()
 				var prof = {
 						firstName: $("#prof-firstName").val(),
 						lastName: $("#prof-lastName").val(),
