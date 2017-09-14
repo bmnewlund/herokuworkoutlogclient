@@ -25,10 +25,17 @@ body {
 }
 
 
+/*Login/ Signup*/
 
 
+#login-modal {
+	color: black;
+}
 
 
+#signup-modal {
+	color: black;
+}
 
 
 
